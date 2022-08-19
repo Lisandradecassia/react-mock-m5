@@ -1,0 +1,15 @@
+.p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+
+.footer{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color: #FFF;
+    background-color: #707070;
+    height: 291px;
+}
