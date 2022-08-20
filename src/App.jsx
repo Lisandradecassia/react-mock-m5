@@ -1,13 +1,13 @@
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
-import Button from './components/Button/Button'
+import Text from './components/Text/Text'
 
 function App() {
   return (
     <div className="App">
       <Header/>
+      <Text/>
       <Footer/>
-      <Button/>
     </div>
   );
 }
