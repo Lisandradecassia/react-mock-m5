@@ -1,12 +1,13 @@
+import './App.css'
 import Header from './components/Header/Header'
+import Main from './components/Main/Main'
 import Footer from './components/Footer/Footer'
-import Description from './components/Description/Description'
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Description/>
+      <Main/>
       <Footer/>
     </div>
   );
