@@ -1,12 +1,12 @@
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
-import Text from './components/Text/Text'
+import Description from './components/Description/Description'
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Text/>
+      <Description/>
       <Footer/>
     </div>
   );
