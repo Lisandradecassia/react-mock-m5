@@ -1,0 +1,58 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 200px;
+  gap: 8px;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 150px;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+
+.h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.h3Desc,
+.h4 {
+  font-size: 12px;
+  text-align: left;
+  flex-wrap: wrap;
+  display: flex;
+  width: 200px;
+  margin-bottom: 2px;
+}
+
+.h5 {
+
+  font-size: 16px;
+  text-align: left;
+}
+
+.vezes {
+  font-size: 12px;
+}
+
+.button {
+  margin-top: 10px;
+  font-size: 16px;
+  background: #FFF;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  color: #888888;
+  height: 30px;
+  width: 200px;
+  text-align: left;
+  font: normal normal normal 16px/16px Helvetica Neue;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
