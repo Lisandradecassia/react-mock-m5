@@ -16,7 +16,7 @@ const Text = () => {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
-      <p className={S.p}>
+      <p className={S.p2}>
         The purpose of lorem ipsum is to create a natural looking block of text
         (sentence, paragraph, page, etc.) that doesn't distract from the layout.
         A practice not without controversy, laying out pages with meaningless
