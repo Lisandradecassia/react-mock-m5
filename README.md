@@ -28,12 +28,13 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 
-## O projeto: Sprint de React para fins educacionais [Resilia Educação](https://www.resilia.com.br/).
+##  :page_with_curl: O projeto: Sprint de React para fins educacionais [Resilia Educação](https://www.resilia.com.br/).
 
-O desafio consiste no desenvolvimento do **layout de uma landing page** com uma grade de produtos e um formulário de newsletter. 
+O desafio consiste no desenvolvimento do layout de uma landing page com uma grade de produtos e um formulário de newsletter. 
 Seu principal objetivo é transformar este layout em uma página funcional.
 
-**Comportamento:**
+:pushpin: Comportamento:
+
 Para preencher a página com as informações dos produtos, você terá que consultar
 esta API de forma paginada, sendo que cada página consultada retornará as
 informações de 8 produtos e um link para a próxima página.
@@ -48,3 +49,29 @@ carregados pela primeira requisição;
 
 ● Os formulários devem ter seus campos de input validados de acordo com o
 conteúdo (ex: O campo de email deve conter um email válido).
+
+## :wrench: Instalação
+
+No terminal da sua máquina/Powershell, digite os comandos abaixo:
+
+```
+git clone https://github.com/Lisandradecassia/react-mock-m5
+```
+
+Acessando a pasta:
+
+```
+cd react-mock-m5
+```
+
+Instalandos os pacotes:
+
+```
+npm install
+```
+
+Rodando o projeto:
+
+```
+npm start
+```
