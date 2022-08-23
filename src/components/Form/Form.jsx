@@ -1,9 +1,8 @@
 import React from "react";
-import Button from "../Button/Button.jsx"; 
+import Button from "../Button/Button.jsx";
 import Input from "../Input/Input";
 import Label from "../Label/Label";
 import S from "./Form.module.css";
-
 
 const Form = () => {
   return (
@@ -15,12 +14,16 @@ const Form = () => {
 
       <div className={S.informationFill}>
         <Label texto="E-mail:" />
-        <Input style={S.input} type="e-mail" />
+        <Input
+          style={S.input}
+          type="e-mail"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+        />
       </div>
 
       <div className={S.informationFill}>
         <Label texto="CPF" />
-        <Input style={S.input} type="text" />
+        <Input style={S.input} type="text" pattern="^[0-9]{11}$" />
       </div>
 
       <div className={S.divRadio}>
