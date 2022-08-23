@@ -1,0 +1,35 @@
+.container {
+    width: 720px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    width: 340px;
+    height: 30px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button {
+    font-size: 16px;
+    border-radius: 4px;
+    color: #888888;
+    background: #FFF;
+    border: 1px solid #707070;
+    height: 39px;
+    width: 340px;
+    margin: 50px 0 71px;
+}
