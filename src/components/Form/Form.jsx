@@ -9,7 +9,7 @@ const Form = () => {
   return (
     <form className={S.form}>
       <div className={S.informationFill}>
-        <Label texto="Nome:" />
+        <Label texto="Seu nome:" />
         <Input style={S.input} type="text" />
       </div>
 
