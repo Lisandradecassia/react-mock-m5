@@ -2,7 +2,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  font-family: HelveticaMd, sans-serif;
+  font-family: HelveticaNeue, sans-serif;
   color: #888888;
 }
 
@@ -11,4 +11,9 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+}
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(fonts/Helvetica\ Neue\ Medium\ Extended/)
 }
